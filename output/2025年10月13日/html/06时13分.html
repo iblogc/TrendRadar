@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 179</p><p>生成时间: 2025-10-13 06:13:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump</td>
+                <td class="count">25</td>
+                <td class="percentage">13.97%</td>
+                <td class="titles">[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757037" target="_blank" class="news-link">“坏消息”后未必就是“黄金坑”，国金牟一凌：无恐惧、不贪婪</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时13分</font><br>[靠谱新闻] <a href="https://www.dw.com/zh/巴基斯坦提名特朗普角逐诺贝尔和平奖/a-72995268" target="_blank" class="news-link">巴基斯坦提名特朗普角逐诺贝尔和平奖</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时13分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052757698800" target="_blank" class="news-link">特朗普：乌克兰需要“爱国者”导弹，并希望拥有战斧导弹，我们谈过这个。</a> [6] <font color='grey'>- 06时13分</font></div><br>[华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3757037" target="_blank" class="news-link">“坏消息”后未必就是“黄金坑”，国金牟一凌：无恐惧、不贪婪</a> [7] <font color='grey'>- 06时13分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052609941800" target="_blank" class="news-link">特朗普：我可能会告诉普京，如果这场冲突得不到解决，我将（向乌克兰）提供战斧导弹。</a> [7] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052511393800" target="_blank" class="news-link">特朗普：当我们意见不一致时，我和内塔尼亚胡有过一些争论，但他是在正确时间出现的正确人物。</a> [8] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052507044800" target="_blank" class="news-link">特朗普：我们希望能够向乌克兰提供更多武器。</a> [9] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052432659800" target="_blank" class="news-link">特朗普：与泽连斯基进行了良好的交谈。</a> [10] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052338075800" target="_blank" class="news-link">特朗普：若能访问加沙将会很荣幸，我会去那里，我想去。</a> [11] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052246321800" target="_blank" class="news-link">特朗普：不担心以色列在人质获释后重启战争。</a> [13] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013052139919800" target="_blank" class="news-link">特朗普：希望到加沙地区走走。</a> [14] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013051945345800" target="_blank" class="news-link">特朗普：我认为普京会解决俄乌冲突问题，如果他不这样做，对他来说就没好处了。</a> [15] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013051854020800" target="_blank" class="news-link">特朗普：（最新的）诺贝尔奖是颁给2024年的。</a> [16] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013051757863800" target="_blank" class="news-link">美国总统特朗普：我听说巴基斯坦和阿富汗之间“有战争”，我会尽力解决这个问题。</a> [17] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013051355686800" target="_blank" class="news-link">特朗普：卡塔尔应受到赞誉。</a> [18] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013051159612800" target="_blank" class="news-link">特朗普：与以色列总理内塔尼亚胡的关系良好。内塔尼亚胡做得“非常出色”。</a> [19] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013050922637800" target="_blank" class="news-link">特朗普：人质可能更早获释。</a> [21] <font color='grey'>- 06时13分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3757024" target="_blank" class="news-link">美股三季报开启，AI依旧是焦点，关税重回视野</a> [22] <font color='grey'>- 06时13分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013050906964800" target="_blank" class="news-link">特朗普：有很多口头保证，我相信这些保证。加沙会没事的。</a> [22] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013050649014800" target="_blank" class="news-link">特朗普：将迅速成立“加沙和平委员会”。</a> [23] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013050605911800" target="_blank" class="news-link">特朗普：加沙就像一个废墟。</a> [24] <font color='grey'>- 06时13分</font></div><br>[华尔街见闻-最新] <a href="https://wallstreetcn.com/charts/41957808" target="_blank" class="news-link">周五美股期权的成交量创纪录新高，超过了4月2日“对等关税宣布之日</a> [25] <font color='grey'>- 06时13分</font><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013050425694800" target="_blank" class="news-link">美国总统特朗普：（被问及加沙）战争已结束。停火将得以维持。</a> [25] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013045737146800" target="_blank" class="news-link">市场消息：美国国防部长赫格塞思、美国国务卿鲁比奥、中情局局长拉特克利夫和参谋长联席会议主席丹·凯恩将乘坐空军一号参加特朗普的中东之行。</a> [26] <font color='grey'>- 06时13分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251013044739176800" target="_blank" class="news-link">美国白宫：美国总统特朗普正前往以色列和埃及，签署结束加沙战争的和平协议。</a> [30] <font color='grey'>- 06时13分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 20 条)</h3>
+        <h4>金十数据 (20 条)</h4><ul><li><a href="https://flash.jin10.com/detail/20251013052757698800" target="_blank" class="news-link">特朗普：乌克兰需要“爱国者”导弹，并希望拥有战斧导弹，我们谈过这个。</a> [6]</li><li><a href="https://flash.jin10.com/detail/20251013052609941800" target="_blank" class="news-link">特朗普：我可能会告诉普京，如果这场冲突得不到解决，我将（向乌克兰）提供战斧导弹。</a> [7]</li><li><a href="https://flash.jin10.com/detail/20251013052511393800" target="_blank" class="news-link">特朗普：当我们意见不一致时，我和内塔尼亚胡有过一些争论，但他是在正确时间出现的正确人物。</a> [8]</li><li><a href="https://flash.jin10.com/detail/20251013052507044800" target="_blank" class="news-link">特朗普：我们希望能够向乌克兰提供更多武器。</a> [9]</li><li><a href="https://flash.jin10.com/detail/20251013052432659800" target="_blank" class="news-link">特朗普：与泽连斯基进行了良好的交谈。</a> [10]</li><li><a href="https://flash.jin10.com/detail/20251013052338075800" target="_blank" class="news-link">特朗普：若能访问加沙将会很荣幸，我会去那里，我想去。</a> [11]</li><li><a href="https://flash.jin10.com/detail/20251013052246321800" target="_blank" class="news-link">特朗普：不担心以色列在人质获释后重启战争。</a> [13]</li><li><a href="https://flash.jin10.com/detail/20251013052139919800" target="_blank" class="news-link">特朗普：希望到加沙地区走走。</a> [14]</li><li><a href="https://flash.jin10.com/detail/20251013051945345800" target="_blank" class="news-link">特朗普：我认为普京会解决俄乌冲突问题，如果他不这样做，对他来说就没好处了。</a> [15]</li><li><a href="https://flash.jin10.com/detail/20251013051854020800" target="_blank" class="news-link">特朗普：（最新的）诺贝尔奖是颁给2024年的。</a> [16]</li><li><a href="https://flash.jin10.com/detail/20251013051757863800" target="_blank" class="news-link">美国总统特朗普：我听说巴基斯坦和阿富汗之间“有战争”，我会尽力解决这个问题。</a> [17]</li><li><a href="https://flash.jin10.com/detail/20251013051355686800" target="_blank" class="news-link">特朗普：卡塔尔应受到赞誉。</a> [18]</li><li><a href="https://flash.jin10.com/detail/20251013051159612800" target="_blank" class="news-link">特朗普：与以色列总理内塔尼亚胡的关系良好。内塔尼亚胡做得“非常出色”。</a> [19]</li><li><a href="https://flash.jin10.com/detail/20251013050922637800" target="_blank" class="news-link">特朗普：人质可能更早获释。</a> [21]</li><li><a href="https://flash.jin10.com/detail/20251013050906964800" target="_blank" class="news-link">特朗普：有很多口头保证，我相信这些保证。加沙会没事的。</a> [22]</li><li><a href="https://flash.jin10.com/detail/20251013050649014800" target="_blank" class="news-link">特朗普：将迅速成立“加沙和平委员会”。</a> [23]</li><li><a href="https://flash.jin10.com/detail/20251013050605911800" target="_blank" class="news-link">特朗普：加沙就像一个废墟。</a> [24]</li><li><a href="https://flash.jin10.com/detail/20251013050425694800" target="_blank" class="news-link">美国总统特朗普：（被问及加沙）战争已结束。停火将得以维持。</a> [25]</li><li><a href="https://flash.jin10.com/detail/20251013045737146800" target="_blank" class="news-link">市场消息：美国国防部长赫格塞思、美国国务卿鲁比奥、中情局局长拉特克利夫和参谋长联席会议主席丹·凯恩将乘坐空军一号参加特朗普的中东之行。</a> [26]</li><li><a href="https://flash.jin10.com/detail/20251013044739176800" target="_blank" class="news-link">美国白宫：美国总统特朗普正前往以色列和埃及，签署结束加沙战争的和平协议。</a> [30]</li></ul></div>
+    </body>
+    </html>
+    
