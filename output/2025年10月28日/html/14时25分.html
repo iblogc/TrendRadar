@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 114</p><p>生成时间: 2025-10-28 14:25:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 汇率 加密货币 美债</td>
+                <td class="count">16</td>
+                <td class="percentage">14.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3757937" target="_blank" class="news-link">贸易缓和提振美股新高，人民币两月最大涨幅，黄金失守4000美元，伦铜收创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/politics/16064.html" target="_blank" class="news-link">韩国家安保室：金正恩与特朗普在APEC峰会期间会晤可能性极低</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251028134115624800" target="_blank" class="news-link">现货黄金延续跌势，失守3960美元/盎司，日内跌0.53%。</a> [7] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/cvg4wgqynk5o/simp" target="_blank" class="news-link">特朗普可以连任第三届美国总统吗？</a> [9] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758026" target="_blank" class="news-link">黄金下一步看3800，重要支撑线在3600美元？两大因素将是金价能否反弹的关键</a> [9] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758024" target="_blank" class="news-link">“韩元变成卫生纸”！忧虑美韩3500亿美元投资协议，韩国民众猛买美股和黄金</a> [10] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758033" target="_blank" class="news-link">韩国央行：考虑自2013年以来首次购买黄金</a> [13] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20251028_01/" target="_blank" class="news-link">高市首相与特朗普总统举行首次面对面首脑会谈</a> [14] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/%E7%89%B9%E6%9C%97%E6%99%AE%E4%BA%9A%E6%B4%B2%E4%B9%8B%E8%A1%8C%E5%85%B3%E9%94%AE%E4%BB%BB%E5%8A%A1-%E6%95%B2%E5%AE%9A%E5%85%B3%E7%A8%8E%E5%8D%8F%E8%AE%AE-b57fb2ba" target="_blank" class="news-link">特朗普亚洲之行关键任务：敲定关税协议</a> [16] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251028132014384800" target="_blank" class="news-link">据英国金融时报：英国加密货币公司KR1计划在伦敦证券交易所上市，这是近年来英国对数字资产行业热情高涨之际，数字资产企业首次采取此类行动。</a> [18] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/trump-white-house-ballroom-construction-4c148e5e" target="_blank" class="news-link">特朗普如何冲破华盛顿重重审批，强推白宫新宴会厅项目？</a> [19] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.wsj.com/articles/whatwe-know-about-trump-s-virtually-done-trade-deal-with-china-so-far-f5659aee" target="_blank" class="news-link">关于特朗普与中国“几近达成”的贸易协议，我们目前知道什么？</a> [20] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/usa/20251028/trump-china-trade-deal-talks/" target="_blank" class="news-link">特朗普的对华贸易协议：试图解决一场他自己制造的危机</a> [21] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85%E6%8A%A5%E9%81%93/20251028-%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%99%A4%E5%B7%9D%E6%99%AE-%E7%9B%BC%E5%AE%9E%E7%8E%B0%E7%BE%8E%E6%97%A5%E5%90%8C%E7%9B%9F%E6%96%B0%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3" target="_blank" class="news-link">高市早苗晤川普 盼实现美日同盟新黄金时代</a> [25]</div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3758023" target="_blank" class="news-link">提前干预决策！特朗普年底“定人”，“美联储新主席”很可能参加明年3月和4月的利率决议</a> [27] <font color='grey'>- 14时25分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://china.hani.co.kr/arti/international/16062.html" target="_blank" class="news-link">特朗普首度表态愿讨论解除对朝制裁……金正恩将作何反应？</a> [30] <font color='grey'>- 14时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
