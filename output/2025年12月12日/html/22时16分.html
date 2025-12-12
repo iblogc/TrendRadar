@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 70</p><p>生成时间: 2025-12-12 22:16:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 汇率 加密货币 非农就业报告 ​​CPI消费者物价指数 GDP增长率​ 美元指数 ​​美债收益率 中国经济数据​ ​​全球大宗商品价格​​ ​​VIX恐慌指数​ 机构资金流向​ 市场广度指标​ 通胀数据 FOMC会议 美联储官员 就业数据 利率预期​​ 石油 稀土 铜 扩表 缩表 货币政策 流动性 美联储资产负债表 TGA 美国财政部一般账户余额</td>
+                <td class="count">9</td>
+                <td class="percentage">12.86%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761299" target="_blank" class="news-link">2026年票委、芝加哥联储主席：反对周三降息，应等待更多通胀数据，预计明年降息次数多于中值预测</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761271" target="_blank" class="news-link">全球股市涨幅扩大，科技股拖累美股指期货，铜银续创新高，现货黄金重新站上4300美元</a> [6] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3761296" target="_blank" class="news-link">中国央行：灵活高效运用降准降息等多种货币政策工具，把握好政策实施的力度、节奏和时机</a> [8] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251212214948415800" target="_blank" class="news-link">澳新银行：铜价有望在明年年底攀升至每吨1.2万美元</a> [10] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251212214716321800" target="_blank" class="news-link">美联储哈玛克：缺乏数据使得解读通胀数据更加困难。</a> [17] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251212214655733800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2025-12-12）</a> [20] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251212214443531800" target="_blank" class="news-link">铜价创历史新高 降息预期与供应短缺共推涨势</a> [21] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.rfi.fr/cn/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/20251212-%E8%81%94%E5%87%86%E4%BC%9A%E9%99%8D%E6%81%AF%E6%BF%80%E5%8A%B1%E5%8D%8E%E5%B0%94%E8%A1%97%E5%88%9B%E6%96%B0%E9%AB%98-%E4%BA%9A%E8%82%A1%E8%B7%9F%E9%9A%8F%E7%BE%8E%E8%82%A1%E6%94%B6%E6%B6%A8" target="_blank" class="news-link">联准会降息激励华尔街创新高 亚股跟随美股收涨</a> [22] <font color='grey'>- 22时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251212214422431800" target="_blank" class="news-link">美联储古尔斯比：债券购买是为了控制利率，而非货币政策。</a> [22] <font color='grey'>- 22时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
