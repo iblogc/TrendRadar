@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-12-30 06:24:50</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">26.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762273" target="_blank" class="news-link">特朗普会晤内塔尼亚胡，就伊朗核问题再次发出威胁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/politicsaeconomy/politicsasociety/60886-2025-12-30-05-00-05.html" target="_blank" class="news-link">特朗普级战列舰是现代版“大和号”？</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762272" target="_blank" class="news-link">特朗普：正考虑以无能为由起诉鲍威尔</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762268" target="_blank" class="news-link">俄罗斯称乌91架无人机袭击普京官邸，泽连斯基否认，特朗普“很生气”</a> [8] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230052443235800" target="_blank" class="news-link">美国总统特朗普：考虑向土耳其出售F-35战斗机。</a> [21] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230052220933800" target="_blank" class="news-link">美国联邦住房金融局局长、“反美联储先锋”普尔特：特朗普总统说得对，杰罗姆·鲍威尔必须辞职。</a> [22] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230051943479800" target="_blank" class="news-link">特朗普：考虑起诉鲍威尔 还是可能炒了他</a> [23] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230051343979800" target="_blank" class="news-link">美国总统特朗普：在某个时刻，沙特阿拉伯将签署亚伯拉罕协议。</a> [24] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230051237992800" target="_blank" class="news-link">美国总统特朗普：亚伯拉罕协议将被扩大。</a> [25] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230051234021800" target="_blank" class="news-link">美国总统特朗普：伊朗的权力和威望已大大削弱，我们不能让他们再次壮大。</a> [26] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230050747641800" target="_blank" class="news-link">美国总统特朗普：愿意与伊朗展开对话。</a> [29] <font color='grey'>- 06时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251230050729543800" target="_blank" class="news-link">美国总统特朗普：我们拭目以待黎巴嫩解除真主党武装的努力，真主党一直表现得很糟糕。伊朗的行为或许有些不当，但这尚未得到证实。</a> [30] <font color='grey'>- 06时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
