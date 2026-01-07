@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-01-08 06:25:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">18.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3762734" target="_blank" class="news-link">美经济数据喜忧参半，美股涨势暂歇，美债受捧，贵金属回落</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108060632294800" target="_blank" class="news-link">美国总统特朗普：采购的设备将改善委内瑞拉的电网和能源设施。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108060622273800" target="_blank" class="news-link">美国总统特朗普：他们将用从我们新的石油协议中获得的资金来支付。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108060546493800" target="_blank" class="news-link">美国总统特朗普：这些采购将包括但不限于美国农产品，以及美国制造的药品、医疗设备和器械。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108060530372800" target="_blank" class="news-link">美国总统特朗普：我刚刚获悉，委内瑞拉的石油收入将只采购美国制造的产品。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3762734" target="_blank" class="news-link">美股指涨跌互现，英特尔涨超11%，欧美债价格上行，金银跌幅扩大，油价承压</a> [6] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108060318362800" target="_blank" class="news-link">美国交通部：特朗普政府扣留了加州政府1.6亿美元资金，原因是该州未能撤销超过17,000张由外国人持有的商业驾照。</a> [7] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108055541659800" target="_blank" class="news-link">美国白宫：美国总统特朗普签署总统备忘录，指示美国退出66个不再符合美国利益的国际组织。</a> [10] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108053149928800" target="_blank" class="news-link">特朗普：美国2027年的军费预算应提升至1.5万亿美元</a> [21] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108052338112800" target="_blank" class="news-link">特朗普点名雷神公司 威胁切断其与国防部的业务</a> [23] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108051838195800" target="_blank" class="news-link">美国总统特朗普：我们2027年的军费预算不应该是1万亿美元，而应该是1.5万亿美元。</a> [24] <font color='grey'>- 06时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260108050826101800" target="_blank" class="news-link">美国众议院议长约翰逊证实，美国总统特朗普将于2月24日发表国情咨文。</a> [29] <font color='grey'>- 06时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
