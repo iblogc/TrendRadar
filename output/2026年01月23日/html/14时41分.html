@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2026-01-23 14:41:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">12</td>
+                <td class="percentage">8.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/cgk886r5l4po/simp" target="_blank" class="news-link">分析：「首席和平缔造者」特朗普让联合国靠边站？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www.bbc.com/zhongwen/articles/c1m77y4p239o/simp" target="_blank" class="news-link">特朗普的格陵兰「未来协议框架」，我们知道什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260123_01/" target="_blank" class="news-link">特朗普强调希望将“在加沙取得的成功推及其他”</a> [8] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763993" target="_blank" class="news-link">资金轮动推动美元走软，亚太股市普涨，黄金直逼5000大关，白银触及99关口</a> [8] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://www3.nhk.or.jp/nhkworld/zh/news/20260123_RS07/" target="_blank" class="news-link">特朗普政府宣布已完成退出世卫组织的程序</a> [9] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763898" target="_blank" class="news-link">不再是“穷人的黄金”，白银正在被时代需要</a> [10] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763980" target="_blank" class="news-link">复刻汤姆克鲁斯“壮志凌云”？装强硬吸引特朗普？马克龙的墨镜成为达沃斯焦点</a> [17] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/world/20260123/trump-greenland-foreign-policy/" target="_blank" class="news-link">反复无常、有恃无恐：特朗普的达沃斯外交风暴</a> [18] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="http://cn.nikkei.com/politicsaeconomy/efinance/61189-2026-01-23-10-15-17.html" target="_blank" class="news-link">比特币价格暴跌，不再被视为“数字黄金”？</a> [24] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763984" target="_blank" class="news-link">特朗普四处“兴风作浪”，欧洲富豪开始&quot;逃离&quot;美国资产</a> [27] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [靠谱新闻] <a href="https://cn.nytimes.com/opinion/20260123/trump-europe-greenland/" target="_blank" class="news-link">特朗普让世界认识到来自美国的威胁</a> [28] <font color='grey'>- 14时41分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3763982" target="_blank" class="news-link">狼真的来了？量子计算对比特币威胁“不再是理论”，分析师：20-50%比特币存在“安全隐患”</a> [28] <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">出海 独立开发者 赚美金</td>
+                <td class="count">1</td>
+                <td class="percentage">0.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [v2ex] <a href="https://www.v2ex.com/t/1187792" target="_blank" class="news-link">关于出海产品用到的 redis 选哪家</a> [23] <font color='grey'>- 14时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
