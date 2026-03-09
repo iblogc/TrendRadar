@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-03-10 06:34:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">特朗普 黄金 美股 Trump btc 加密货币 比特币</td>
+                <td class="count">26</td>
+                <td class="percentage">61.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻-最热] <a href="https://wallstreetcn.com/articles/3766990" target="_blank" class="news-link">大逆转！特朗普一句“战争结束”，美国股债深V反转，原油较日高暴跌30%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻-最新] <a href="https://wallstreetcn.com/articles/3766990" target="_blank" class="news-link">大逆转！特朗普一句“战争结束”，美国股债深V反转，原油较日高暴跌30%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310062148873800" target="_blank" class="news-link">美国总统特朗普：又将有1亿桶石油从委内瑞拉运抵。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310062129418800" target="_blank" class="news-link">美国总统特朗普：已从委内瑞拉运走1亿桶石油。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310062110779800" target="_blank" class="news-link">美国总统特朗普：对哈梅内伊之子穆杰塔巴的选择感到失望。新的伊朗最高领袖只会导致伊朗面临更多同样的问题。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061947210800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗问题）密切关注伊朗是否已激活“潜伏特工”。</a> [6] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061511399800" target="_blank" class="news-link">美国总统特朗普：油价涨幅低于我的预期。</a> [9] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061456924800" target="_blank" class="news-link">美国总统特朗普：早就料到与伊朗的开战油价和天然气价格会上涨。</a> [10] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061400533800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗问题）我们可以到此为止，但我们还会继续推进。</a> [11] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061334632800" target="_blank" class="news-link">美国总统特朗普：针对伊朗的重大风险已在3天前解除。</a> [12] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061302630800" target="_blank" class="news-link">美国总统特朗普：我们将就伊朗问题采取进一步行动。</a> [13] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061238405800" target="_blank" class="news-link">特朗普称伊朗也有战斧导弹</a> [14] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061149896800" target="_blank" class="news-link">美国总统特朗普：古巴要么达成协议，要么我们将采取“同样轻松”的行动。</a> [15] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061117684800" target="_blank" class="news-link">美国总统特朗普：以豁免制裁来降低油价。</a> [16] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061105017800" target="_blank" class="news-link">美国总统特朗普：古巴在人道主义方面陷入了深深的麻烦。</a> [17] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061049841800" target="_blank" class="news-link">美国总统特朗普：可能会友好接管古巴，也可能不会。</a> [18] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310061032272800" target="_blank" class="news-link">美国总统特朗普在被问及伊朗战争本周是否会结束时回答：“不会”，但很快就会结束。</a> [19] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060914783800" target="_blank" class="news-link">美国总统特朗普：和普京讨论了乌克兰问题。</a> [20] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060849289800" target="_blank" class="news-link">美国总统特朗普：与普京的通话积极，我们还谈到了中东问题。他想要提供帮助。</a> [21] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060734637800" target="_blank" class="news-link">美国总统特朗普：时机成熟时，美国海军将在霍尔木兹海峡护航。</a> [23] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060625923800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗问题）我们还将豁免某些石油相关制裁。</a> [24] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060553495800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗行动）我们即将完成。</a> [25] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060537425800" target="_blank" class="news-link">特朗普称对伊朗军事行动是一次“短期行动”</a> [26] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060528859800" target="_blank" class="news-link">美国总统特朗普：霍尔木兹海峡将保持安全。</a> [27] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060449707800" target="_blank" class="news-link">美国总统特朗普：如果伊朗破坏石油供应，我们会更狠地打击他们。</a> [28] <font color='grey'>- 06时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310060135690800" target="_blank" class="news-link">美国总统特朗普：伊朗可能已经制造出可以“到达我们本土”的武器。</a> [30] <font color='grey'>- 06时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
